@@ -1,2 +1,3 @@
 # Ashersrep
-Asher Repository
+# Asher Repository
+# Where Asher will learn about coding and about GIT
