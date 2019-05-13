@@ -84,7 +84,7 @@ nav li {
     <li class="center"><a href="">Coverage Area</a></li>
     <li class="right"><a href="">Contact Us</a></li>
   </ul>
-
+<hr>
 </div>
 </body>
 <div class="cursor-1 cursor"></div>
