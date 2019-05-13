@@ -48,6 +48,26 @@ nav li {
   margin-right: 100px;
   margin-left: 100px;
 }
+.cursor {
+    background-color: green;
+    height: 30px;
+    width: 10px;
+    border-radius: 10%;
+    animation-iteration-count: infinite;
+  }
+
+  .cursor-1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    animation-duration: 1s;
+    animation-name: blink;
+  }
+  @keyframes blink {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
 </style>
 <body>
   <div id="page-header">
@@ -67,6 +87,7 @@ nav li {
 
 </div>
 </body>
+<div class="cursor-1 cursor"></div>
 <br>
 <footer>RDT LLC</footer>
 
